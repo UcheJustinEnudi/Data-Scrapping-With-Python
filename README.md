@@ -573,38 +573,3 @@ budget	company	country	director	genre	gross	name	rating	released	runtime	score	s
 5293	260000000.0	Walt Disney Animation Studios	USA	Nathan Greno	Animation	200821936.0	Tangled	PG	2010-11-24	100	7.8	Mandy Moore	325621	Dan Fogelman	2010	NaN	NaN	2010
 4631	300000000.0	Walt Disney Pictures	USA	Gore Verbinski	Action	309420425.0	Pirates of the Caribbean: At World's End	PG-13	2007-05-25	169	7.1	Johnny Depp	514191	Ted Elliott	2007	NaN	NaN	2007
 6820 rows × 18 columns
-
- 
- 
- 
- 
- 
- 
- 
- 
-
-sns.swarmplot(x="rating", y="gross", data=df)
-C:\Users\alexf\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 95.8% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-  warnings.warn(msg, UserWarning)
-C:\Users\alexf\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 88.6% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-  warnings.warn(msg, UserWarning)
-C:\Users\alexf\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 81.5% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-  warnings.warn(msg, UserWarning)
-C:\Users\alexf\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 40.1% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-  warnings.warn(msg, UserWarning)
-C:\Users\alexf\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 88.7% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-  warnings.warn(msg, UserWarning)
-C:\Users\alexf\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 96.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-  warnings.warn(msg, UserWarning)
-C:\Users\alexf\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 85.7% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-  warnings.warn(msg, UserWarning)
-C:\Users\alexf\anaconda3\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 59.1% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
-  warnings.warn(msg, UserWarning)
-<AxesSubplot:xlabel='rating', ylabel='gross'>
-
- 
-sns.stripplot(x="rating", y="gross", data=df)
-<AxesSubplot:xlabel='rating', ylabel='gross'>
-
- 
- 
